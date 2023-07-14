@@ -1,5 +1,5 @@
-import { httpServer } from "./src/http_server/index"
-import createServer from "./src/ws_server"
+import { httpServer } from "./http_server"
+import createServer from "./ws_server"
 
 const HTTP_PORT = 8181
 const WS_PORT = 3000
